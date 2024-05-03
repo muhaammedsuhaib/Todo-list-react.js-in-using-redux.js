@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+
+
+
+  .heading:after {
+    content: attr(data-shadow);
+     text-size-adjust: large;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        rgb(255, 255, 255) 45%,
+        rgb(255, 255, 255) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: shad-anim 1s linear infinite;
+    }
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+  }

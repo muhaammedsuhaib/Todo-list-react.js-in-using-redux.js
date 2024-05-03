@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://wallpapers.com/images/featured/black-abstract-m8kr2hfvrwlt8j5g.jpg");
+  background-size: cover;
+    
 }
 
 code {
